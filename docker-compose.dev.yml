@@ -1,0 +1,27 @@
+version: "3"
+services:
+  server:
+    build:
+      target: server
+      dockerfile: Dockerfile.dev
+    volumes:
+      - /home/caden/.local/share/pnpm/store:/pnpm/store
+      - .:/app
+  web:
+    build:
+      target: web
+      dockerfile: Dockerfile.dev
+    volumes:
+      - /home/caden/.local/share/pnpm/store:/pnpm/store
+      - .:/app
+  proxy:
+    container_name: hive-link-proxy
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      target: proxy
+    depends_on:
+      - server
+      - web
+    ports:
+      - "80:80"

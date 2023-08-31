@@ -1,0 +1,50 @@
+
+{
+  "users": [
+    {
+      "name": "caden scharpf",
+      "email": "u16scharpf@gmail.com",
+      "phone": "480-326-4178",
+      "pwdHash": "$2b$12$1mE2OI9hMS/rgH9Mi0s85OM2V5gzm7aF3gJIWH1y0S1MqVBueyjsy",
+      "role": 1,
+      "id": 159123164363
+    },
+    {
+      "name": "caden scharpf",
+      "email": "jsmith@gmail.com",
+      "phone": "480-326-4178",
+      "pwdHash": "$2b$12$1mE2OI9hMS/rgH9Mi0s85OM2V5gzm7aF3gJIWH1y0S1MqVBueyjsy",
+      "role": 1,
+      "id": 159123164363
+    },
+    {
+      "name": "Gordan Freeman",
+      "email": "gordan.freeman@halflife.com",
+      "phone": "480-326-4178",
+      "pwdHash": "$2b$12$1mE2OI9hMS/rgH9Mi0s85OM2V5gzm7aF3gJIWH1y0S1MqVBueyjsy",
+      "role": 0,
+      "id": 906524522143
+    },
+    {
+      "id": 53845392711,
+      "name": "cadem scarp",
+      "email": "fsdf@test.com",
+      "phone": "4444",
+      "role": 0
+    },
+    {
+      "id": 695083045206,
+      "name": "cade",
+      "email": "sdfa",
+      "phone": "3423242332",
+      "role": 0
+    },
+    {
+      "id": 165464734461,
+      "name": "cade",
+      "email": "sdfa",
+      "phone": "3423242332",
+      "role": 0
+    }
+  ]
+}

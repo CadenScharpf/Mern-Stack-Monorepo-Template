@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  server:
+    container_name: hive-link-server
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+      - "9229:9229"
+
+  web:
+    container_name: hive-link-web
+    build:
+      context: .
+    depends_on:
+     - server
+    ports:
+     - "3001:3001"

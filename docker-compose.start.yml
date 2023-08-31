@@ -1,0 +1,15 @@
+version: '3'
+services:
+  server:
+    build:
+      target: server
+      dockerfile: Dockerfile.prod
+    volumes:
+      - /home/caden/.local/share/pnpm/store:/pnpm/store
+
+  web:
+    build:
+     target: web
+     dockerfile: Dockerfile.prod
+    volumes:
+      - /home/caden/.local/share/pnpm/store:/pnpm/store
